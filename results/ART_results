@@ -1,0 +1,831 @@
+Num topics 5
+len voc small: 22666
+Single thread
+Start vocabulary
+Finish vocabulary
+Start documents
+Finish documents
+len voc full: 28815
+
+
+=========================================================
+==========================TFIDF==========================
+=========================================================
+
+
+TFIDF
+NMF TFIDF with cvalue:
+{'database': {0: 615, 1: 169, 2: 99, 3: 1655, 4: 2521}, 'medical': {0: 323, 1: 107, 2: 1108, 3: 1473, 4: 55}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 264, 1: 169, 2: 2929, 3: 648, 4: 64}, 'datamining': {0: 1621, 1: 128, 2: 79, 3: 288, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.012913703918457
+NMF TFIDF ARI c-value: 0.386108970264
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 229, 1: 3350, 2: 1122, 3: 151, 4: 207}, 'medical': {0: 1206, 1: 699, 2: 303, 3: 787, 4: 71}, 'theory': {0: 127, 1: 134, 2: 215, 3: 172, 4: 3347}, 'visu': {0: 171, 1: 289, 2: 401, 3: 3076, 4: 137}, 'datamining': {0: 164, 1: 296, 2: 1576, 3: 126, 4: 108}}
+Topic 0 ['medical', 'clinical', 'patient', 'network', 'neural', 'research', 'image', 'brain', 'computer', 'knowledge']
+Topic 1 ['system', 'database', 'data', 'query', 'information', 'application', 'management', 'paper', 'user', 'language']
+Topic 2 ['data', 'mining', 'algorithm', 'method', 'paper', 'pattern', 'rule', 'set', 'approach', 'tree']
+Topic 3 ['image', 'visualization', 'surface', 'method', 'model', 'motion', 'object', 'shape', 'point', 'volume']
+Topic 4 ['problem', 'algorithm', 'graph', 'time', 'bound', 'approximation', 'polynomial', 'number', 'log', 'result']
+LDA TFIDF c-value time 203.1047534942627
+LDA TFIDF ARI c-value: 0.40815998257
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2349, 1: 99, 2: 89, 3: 743, 4: 1779}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3322, 2: 137, 3: 207, 4: 200}, 'visu': {0: 50, 1: 82, 2: 2959, 3: 333, 4: 650}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.8962912559509277
+NMF TFIDF ARI: 0.383905234311
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 175, 1: 232, 2: 3584, 3: 130, 4: 938}, 'medical': {0: 70, 1: 694, 2: 107, 3: 872, 4: 1323}, 'theory': {0: 3339, 1: 175, 2: 274, 3: 139, 4: 68}, 'visu': {0: 96, 1: 239, 2: 236, 3: 3095, 4: 408}, 'datamining': {0: 149, 1: 533, 2: 854, 3: 287, 4: 447}}
+Topic 0 ['problem', 'algorithm', 'bound', 'graph', 'time', '1', '2', 'approximation', 'show', 'log']
+Topic 1 ['classification', 'learn', 'data', 'learning', 'rule', 'classifier', 'neural', 'base', 'network', 'discovery']
+Topic 2 ['data', 'query', 'database', 'system', 'propose', 'paper', 'performance', 'base', 'present', 'show']
+Topic 3 ['image', 'method', 'model', 'surface', 'base', '3d', 'motion', 'object', 'present', 'shape']
+Topic 4 ['research', 'system', 'information', 'paper', 'technology', 'data', 'medical', 'application', 'knowledge', 'web']
+LDA TFIDF time 261.60569858551025
+LDA TFIDF ARI: 0.406560580089
+TFIDF
+NMF TFIDF with cvalue:
+Destructor TM
+{'database': {0: 613, 1: 169, 2: 99, 3: 1665, 4: 2513}, 'medical': {0: 323, 1: 106, 2: 1108, 3: 1474, 4: 55}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 262, 1: 169, 2: 2928, 3: 651, 4: 64}, 'datamining': {0: 1620, 1: 128, 2: 79, 3: 289, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.0215141773223877
+NMF TFIDF ARI c-value: 0.385681075491
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 155, 1: 2583, 2: 1977, 3: 148, 4: 196}, 'medical': {0: 1767, 1: 563, 2: 182, 3: 473, 4: 81}, 'theory': {0: 38, 1: 110, 2: 439, 3: 239, 4: 3169}, 'visu': {0: 405, 1: 379, 2: 305, 3: 2903, 4: 82}, 'datamining': {0: 151, 1: 329, 2: 1470, 3: 226, 4: 94}}
+Topic 0 ['medical', 'image', 'clinical', 'patient', 'system', 'analysis', 'neural', 'health', 'model', 'detection']
+Topic 1 ['database', 'system', 'data', 'information', 'management', 'query', 'research', 'application', 'language', 'web']
+Topic 2 ['data', 'algorithm', 'performance', 'paper', 'query', 'mining', 'result', 'approach', 'method', 'database']
+Topic 3 ['image', 'method', 'surface', 'object', 'model', 'motion', 'point', 'shape', 'visualization', 'algorithm']
+Topic 4 ['problem', 'algorithm', 'graph', 'bound', 'time', 'approximation', 'polynomial', 'log', 'number', 'case']
+LDA TFIDF c-value time 207.14740586280823
+LDA TFIDF ARI c-value: 0.369727956491
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2348, 1: 99, 2: 89, 3: 743, 4: 1780}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3321, 2: 137, 3: 207, 4: 201}, 'visu': {0: 50, 1: 82, 2: 2958, 3: 333, 4: 651}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.919459581375122
+NMF TFIDF ARI: 0.383666868513
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 136, 1: 189, 2: 1937, 3: 240, 4: 2557}, 'medical': {0: 873, 1: 78, 2: 1141, 3: 857, 4: 117}, 'theory': {0: 196, 1: 3070, 2: 85, 3: 118, 4: 526}, 'visu': {0: 2957, 1: 97, 2: 458, 3: 276, 4: 286}, 'datamining': {0: 181, 1: 114, 2: 332, 3: 651, 4: 992}}
+Topic 0 ['image', 'method', 'surface', '3d', 'model', 'motion', 'base', 'object', 'point', 'shape']
+Topic 1 ['problem', 'algorithm', 'bound', 'graph', '1', 'time', '2', 'log', 'approximation', 'polynomial']
+Topic 2 ['system', 'database', 'research', 'data', 'information', 'application', 'paper', 'management', 'technology', 'web']
+Topic 3 ['classification', 'learn', 'data', 'model', 'base', 'learning', 'rule', 'analysis', 'detection', 'network']
+Topic 4 ['query', 'data', 'propose', 'algorithm', 'performance', 'show', 'paper', 'database', 'result', 'present']
+LDA TFIDF time 258.1039168834686
+LDA TFIDF ARI: 0.322652990454
+TFIDF
+NMF TFIDF with cvalue:
+Destructor TM
+{'database': {0: 614, 1: 169, 2: 99, 3: 1659, 4: 2518}, 'medical': {0: 323, 1: 107, 2: 1108, 3: 1473, 4: 55}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 263, 1: 169, 2: 2929, 3: 649, 4: 64}, 'datamining': {0: 1621, 1: 128, 2: 79, 3: 288, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.070948839187622
+NMF TFIDF ARI c-value: 0.385989576435
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 3439, 1: 389, 2: 168, 3: 199, 4: 864}, 'medical': {0: 171, 1: 1542, 2: 1031, 3: 70, 4: 252}, 'theory': {0: 228, 1: 54, 2: 163, 3: 3321, 4: 229}, 'visu': {0: 243, 1: 276, 2: 2832, 3: 112, 4: 611}, 'datamining': {0: 277, 1: 237, 2: 143, 3: 102, 4: 1511}}
+Topic 0 ['database', 'system', 'query', 'data', 'management', 'performance', 'application', 'object', 'user', 'paper']
+Topic 1 ['research', 'medical', 'system', 'knowledge', 'information', 'clinical', 'technology', 'paper', 'patient', 'network']
+Topic 2 ['image', 'visualization', 'surface', 'method', 'motion', 'model', 'object', 'shape', 'reconstruction', 'volume']
+Topic 3 ['problem', 'algorithm', 'graph', 'time', 'bound', 'approximation', 'polynomial', 'log', 'number', 'result']
+Topic 4 ['data', 'mining', 'algorithm', 'method', 'pattern', 'approach', 'paper', 'set', 'rule', 'result']
+LDA TFIDF c-value time 203.52415895462036
+LDA TFIDF ARI c-value: 0.414190097212
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2352, 1: 99, 2: 89, 3: 743, 4: 1776}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3322, 2: 137, 3: 207, 4: 200}, 'visu': {0: 50, 1: 83, 2: 2960, 3: 333, 4: 648}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.877253532409668
+NMF TFIDF ARI: 0.384091450494
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 1314, 1: 2964, 2: 249, 3: 327, 4: 205}, 'medical': {0: 88, 1: 510, 2: 674, 3: 1687, 4: 107}, 'theory': {0: 899, 1: 78, 2: 185, 3: 125, 4: 2708}, 'visu': {0: 146, 1: 408, 2: 3197, 3: 235, 4: 88}, 'datamining': {0: 425, 1: 856, 2: 541, 3: 338, 4: 110}}
+Topic 0 ['algorithm', 'performance', 'time', 'data', 'show', 'result', 'cost', 'network', 'memory', 'problem']
+Topic 1 ['database', 'data', 'system', 'query', 'information', 'application', 'user', 'paper', 'base', 'web']
+Topic 2 ['image', 'method', 'base', 'model', 'surface', '3d', 'object', 'motion', 'present', 'algorithm']
+Topic 3 ['medical', 'research', 'image', 'system', 'clinical', 'base', 'patient', 'knowledge', 'computer', 'model']
+Topic 4 ['problem', 'graph', 'bound', 'algorithm', '1', 'time', '2', 'polynomial', 'log', 'approximation']
+LDA TFIDF time 263.44437742233276
+LDA TFIDF ARI: 0.328885612271
+TFIDF
+NMF TFIDF with cvalue:
+Destructor TM
+{'database': {0: 613, 1: 169, 2: 98, 3: 1659, 4: 2520}, 'medical': {0: 323, 1: 107, 2: 1108, 3: 1473, 4: 55}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 261, 1: 169, 2: 2929, 3: 651, 4: 64}, 'datamining': {0: 1620, 1: 128, 2: 79, 3: 289, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.0254037380218506
+NMF TFIDF ARI c-value: 0.386093508754
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 3851, 1: 522, 2: 385, 3: 197, 4: 104}, 'medical': {0: 259, 1: 986, 2: 429, 3: 67, 4: 1325}, 'theory': {0: 263, 1: 92, 2: 203, 3: 3350, 4: 87}, 'visu': {0: 206, 1: 913, 2: 2420, 3: 135, 4: 400}, 'datamining': {0: 940, 1: 168, 2: 735, 3: 143, 4: 284}}
+Topic 0 ['database', 'data', 'query', 'system', 'mining', 'paper', 'performance', 'application', 'web', 'information']
+Topic 1 ['visualization', 'research', 'paper', 'system', 'information', 'data', 'volume', 'interactive', 'medical', 'application']
+Topic 2 ['image', 'method', 'model', 'object', 'motion', 'feature', 'approach', 'algorithm', 'data', 'paper']
+Topic 3 ['algorithm', 'problem', 'graph', 'time', 'bound', 'approximation', 'number', 'polynomial', 'log', 'result']
+Topic 4 ['image', 'detection', 'neural', 'network', 'analysis', 'reconstruction', 'medical', 'classification', 'fuzzy', 'brain']
+LDA TFIDF c-value time 209.63460850715637
+LDA TFIDF ARI c-value: 0.381663786012
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2351, 1: 99, 2: 89, 3: 743, 4: 1777}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3322, 2: 137, 3: 207, 4: 200}, 'visu': {0: 50, 1: 83, 2: 2959, 3: 333, 4: 649}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.9075181484222412
+NMF TFIDF ARI: 0.383971191936
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 160, 1: 204, 2: 3818, 3: 205, 4: 672}, 'medical': {0: 504, 1: 49, 2: 186, 3: 849, 4: 1478}, 'theory': {0: 156, 1: 3448, 2: 159, 3: 185, 4: 47}, 'visu': {0: 130, 1: 82, 2: 327, 3: 3182, 4: 353}, 'datamining': {0: 254, 1: 119, 2: 1217, 3: 404, 4: 276}}
+Topic 0 ['neural', 'network', 'proceeding', 'acm', 'classification', 'ct', 'symposium', 'ultrasound', 'conference', 'image']
+Topic 1 ['problem', 'algorithm', 'bound', 'time', 'graph', '1', 'show', '2', 'approximation', 'log']
+Topic 2 ['data', 'database', 'query', 'system', 'paper', 'propose', 'base', 'performance', 'support', 'present']
+Topic 3 ['image', 'method', 'model', 'base', 'surface', '3d', 'object', 'motion', 'present', 'algorithm']
+Topic 4 ['research', 'system', 'medical', 'information', 'technology', 'paper', 'visualization', 'data', 'clinical', 'knowledge']
+LDA TFIDF time 253.32639861106873
+LDA TFIDF ARI: 0.425856679556
+TFIDF
+NMF TFIDF with cvalue:
+Destructor TM
+{'database': {0: 614, 1: 169, 2: 99, 3: 1658, 4: 2519}, 'medical': {0: 323, 1: 107, 2: 1108, 3: 1473, 4: 55}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 264, 1: 169, 2: 2929, 3: 648, 4: 64}, 'datamining': {0: 1621, 1: 128, 2: 79, 3: 288, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.0370473861694336
+NMF TFIDF ARI c-value: 0.386037691626
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 2371, 1: 2158, 2: 198, 3: 143, 4: 189}, 'medical': {0: 135, 1: 1238, 2: 429, 3: 79, 4: 1185}, 'theory': {0: 606, 1: 91, 2: 194, 3: 2982, 4: 122}, 'visu': {0: 217, 1: 374, 2: 3132, 3: 97, 4: 254}, 'datamining': {0: 804, 1: 645, 2: 445, 3: 130, 4: 246}}
+Topic 0 ['data', 'query', 'performance', 'algorithm', 'database', 'efficient', 'paper', 'time', 'technique', 'result']
+Topic 1 ['system', 'database', 'data', 'information', 'research', 'paper', 'web', 'application', 'technology', 'user']
+Topic 2 ['image', 'method', 'model', 'surface', 'object', 'visualization', 'feature', 'motion', 'point', 'approach']
+Topic 3 ['problem', 'graph', 'algorithm', 'bound', 'time', 'approximation', 'polynomial', 'log', 'number', 'case']
+Topic 4 ['image', 'neural', 'reconstruction', 'fuzzy', 'brain', 'analysis', 'network', 'detection', 'imaging', 'medical']
+LDA TFIDF c-value time 211.87887835502625
+LDA TFIDF ARI c-value: 0.328729615502
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2350, 1: 99, 2: 89, 3: 743, 4: 1778}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3322, 2: 137, 3: 207, 4: 200}, 'visu': {0: 50, 1: 82, 2: 2959, 3: 333, 4: 650}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.9227659702301025
+NMF TFIDF ARI: 0.383944405922
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 257, 1: 173, 2: 3912, 3: 532, 4: 185}, 'medical': {0: 61, 1: 530, 2: 908, 3: 681, 4: 886}, 'theory': {0: 3446, 1: 136, 2: 160, 3: 172, 4: 81}, 'visu': {0: 101, 1: 2608, 2: 485, 3: 287, 4: 593}, 'datamining': {0: 109, 1: 217, 2: 485, 3: 1340, 4: 119}}
+Topic 0 ['algorithm', 'problem', 'bound', 'time', 'graph', '1', 'show', 'approximation', '2', 'log']
+Topic 1 ['image', 'model', 'method', 'object', 'motion', 'surface', 'base', 'shape', '3d', 'point']
+Topic 2 ['database', 'system', 'data', 'query', 'paper', 'information', 'application', 'user', 'base', 'support']
+Topic 3 ['mining', 'data', 'cluster', 'classification', 'rule', 'pattern', 'algorithm', 'discovery', 'base', 'method']
+Topic 4 ['visualization', 'image', 'volume', 'interactive', 'render', 'base', 'data', 'medical', 'mesh', 'brain']
+LDA TFIDF time 257.6900646686554
+LDA TFIDF ARI: 0.39589834274
+TFIDF
+NMF TFIDF with cvalue:
+Destructor TM
+{'database': {0: 615, 1: 169, 2: 99, 3: 1662, 4: 2514}, 'medical': {0: 323, 1: 107, 2: 1108, 3: 1473, 4: 55}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 264, 1: 169, 2: 2929, 3: 648, 4: 64}, 'datamining': {0: 1621, 1: 128, 2: 79, 3: 288, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.043168544769287
+NMF TFIDF ARI c-value: 0.385785054781
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 178, 1: 2234, 2: 217, 3: 148, 4: 2282}, 'medical': {0: 153, 1: 182, 2: 59, 3: 1349, 4: 1323}, 'theory': {0: 1480, 1: 178, 2: 2082, 3: 153, 4: 102}, 'visu': {0: 123, 1: 524, 2: 199, 3: 2717, 4: 511}, 'datamining': {0: 162, 1: 273, 2: 181, 3: 388, 4: 1266}}
+Topic 0 ['bound', 'complexity', 'algorithm', 'problem', 'polynomial', 'time', 'abstract', 'number', 'low', 'random']
+Topic 1 ['query', 'data', 'database', 'system', 'performance', 'object', 'algorithm', 'technique', 'efficient', 'memory']
+Topic 2 ['algorithm', 'graph', 'problem', 'approximation', 'time', 'bound', 'edge', 'log', 'number', 'minimum']
+Topic 3 ['image', 'method', 'model', 'surface', 'motion', 'shape', 'reconstruction', 'feature', 'approach', 'object']
+Topic 4 ['data', 'system', 'database', 'information', 'paper', 'mining', 'research', 'application', 'rule', 'user']
+LDA TFIDF c-value time 217.5140242576599
+LDA TFIDF ARI c-value: 0.243224654312
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2349, 1: 99, 2: 89, 3: 743, 4: 1779}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3321, 2: 137, 3: 207, 4: 201}, 'visu': {0: 50, 1: 82, 2: 2959, 3: 333, 4: 650}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.8793623447418213
+NMF TFIDF ARI: 0.383786979005
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 331, 1: 146, 2: 472, 3: 3985, 4: 125}, 'medical': {0: 63, 1: 1200, 2: 1198, 3: 361, 4: 244}, 'theory': {0: 3346, 1: 108, 2: 176, 3: 196, 4: 169}, 'visu': {0: 122, 1: 2058, 2: 148, 3: 362, 4: 1384}, 'datamining': {0: 106, 1: 320, 2: 278, 3: 1413, 4: 153}}
+Topic 0 ['problem', 'algorithm', 'bound', 'time', 'graph', '1', 'show', 'approximation', '2', 'log']
+Topic 1 ['image', 'model', 'motion', 'base', 'method', 'reconstruction', 'object', 'segmentation', 'detection', '3d']
+Topic 2 ['research', 'medical', 'system', 'knowledge', 'clinical', 'patient', 'information', 'technology', 'paper', 'decision']
+Topic 3 ['data', 'database', 'query', 'system', 'paper', 'base', 'propose', 'performance', 'approach', 'mining']
+Topic 4 ['visualization', 'volume', 'data', 'interactive', 'render', 'surface', 'technique', 'method', 'field', 'present']
+LDA TFIDF time 250.67171931266785
+LDA TFIDF ARI: 0.373567823177
+TFIDF
+NMF TFIDF with cvalue:
+Destructor TM
+{'database': {0: 613, 1: 169, 2: 99, 3: 1665, 4: 2513}, 'medical': {0: 322, 1: 106, 2: 1108, 3: 1475, 4: 55}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 261, 1: 169, 2: 2928, 3: 652, 4: 64}, 'datamining': {0: 1620, 1: 128, 2: 79, 3: 289, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.0491797924041748
+NMF TFIDF ARI c-value: 0.385704413176
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 1678, 1: 123, 2: 2907, 3: 251, 4: 100}, 'medical': {0: 145, 1: 1268, 2: 348, 3: 1225, 4: 80}, 'theory': {0: 677, 1: 173, 2: 121, 3: 83, 4: 2941}, 'visu': {0: 398, 1: 2642, 2: 330, 3: 554, 4: 150}, 'datamining': {0: 848, 1: 188, 2: 650, 3: 474, 4: 110}}
+Topic 0 ['data', 'algorithm', 'performance', 'tree', 'time', 'efficient', 'paper', 'query', 'method', 'result']
+Topic 1 ['image', 'surface', 'visualization', 'method', 'motion', 'model', 'shape', 'reconstruction', 'object', 'volume']
+Topic 2 ['database', 'system', 'data', 'query', 'information', 'web', 'management', 'application', 'user', 'relational']
+Topic 3 ['medical', 'paper', 'classification', 'system', 'research', 'model', 'information', 'clinical', 'knowledge', 'patient']
+Topic 4 ['problem', 'algorithm', 'graph', 'bound', 'time', 'approximation', 'polynomial', 'log', 'number', 'case']
+LDA TFIDF c-value time 215.85224199295044
+LDA TFIDF ARI c-value: 0.313561725841
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2348, 1: 98, 2: 89, 3: 743, 4: 1781}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3321, 2: 137, 3: 207, 4: 201}, 'visu': {0: 50, 1: 82, 2: 2958, 3: 333, 4: 651}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.8676137924194336
+NMF TFIDF ARI: 0.383718710069
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 112, 1: 197, 2: 3533, 3: 624, 4: 593}, 'medical': {0: 54, 1: 837, 2: 203, 3: 1411, 4: 561}, 'theory': {0: 3395, 1: 99, 2: 225, 3: 95, 4: 181}, 'visu': {0: 131, 1: 1165, 2: 191, 3: 222, 4: 2365}, 'datamining': {0: 107, 1: 123, 2: 329, 3: 378, 4: 1333}}
+Topic 0 ['problem', 'algorithm', 'bound', 'graph', 'time', '1', 'approximation', '2', 'log', 'show']
+Topic 1 ['visualization', 'image', 'volume', 'interactive', 'render', 'data', '3d', 'model', 'surface', 'base']
+Topic 2 ['database', 'query', 'data', 'system', 'performance', 'paper', 'user', 'object', 'application', 'support']
+Topic 3 ['research', 'medical', 'knowledge', 'system', 'information', 'clinical', 'technology', 'data', 'patient', 'paper']
+Topic 4 ['image', 'method', 'algorithm', 'base', 'data', 'propose', 'model', 'approach', 'result', 'paper']
+LDA TFIDF time 252.93868136405945
+LDA TFIDF ARI: 0.374197665766
+TFIDF
+NMF TFIDF with cvalue:
+Destructor TM
+{'database': {0: 614, 1: 169, 2: 99, 3: 1658, 4: 2519}, 'medical': {0: 323, 1: 107, 2: 1108, 3: 1473, 4: 55}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 264, 1: 169, 2: 2929, 3: 648, 4: 64}, 'datamining': {0: 1621, 1: 128, 2: 79, 3: 288, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.0497620105743408
+NMF TFIDF ARI c-value: 0.386037691626
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 3706, 1: 378, 2: 196, 3: 634, 4: 145}, 'medical': {0: 183, 1: 527, 2: 1061, 3: 1233, 4: 62}, 'theory': {0: 231, 1: 131, 2: 313, 3: 65, 4: 3255}, 'visu': {0: 317, 1: 156, 2: 2799, 3: 693, 4: 109}, 'datamining': {0: 1302, 1: 302, 2: 327, 3: 199, 4: 140}}
+Topic 0 ['data', 'database', 'query', 'system', 'paper', 'performance', 'mining', 'approach', 'algorithm', 'application']
+Topic 1 ['neural', 'network', 'knowledge', 'discovery', 'data', 'fuzzy', 'medical', 'diagnosis', 'mining', 'gene']
+Topic 2 ['image', 'method', 'surface', 'model', 'motion', 'point', 'algorithm', 'shape', 'object', 'approach']
+Topic 3 ['system', 'research', 'information', 'paper', 'visualization', 'technology', 'medical', 'clinical', 'application', 'patient']
+Topic 4 ['problem', 'algorithm', 'graph', 'time', 'bound', 'approximation', 'log', 'polynomial', 'number', 'result']
+LDA TFIDF c-value time 206.53772401809692
+LDA TFIDF ARI c-value: 0.366536429532
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2351, 1: 99, 2: 89, 3: 743, 4: 1777}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3322, 2: 137, 3: 207, 4: 200}, 'visu': {0: 50, 1: 82, 2: 2959, 3: 333, 4: 650}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.86405348777771
+NMF TFIDF ARI: 0.383983626792
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 243, 1: 4068, 2: 219, 3: 334, 4: 195}, 'medical': {0: 636, 1: 643, 2: 262, 3: 1455, 4: 70}, 'theory': {0: 169, 1: 191, 2: 119, 3: 128, 4: 3388}, 'visu': {0: 3147, 1: 444, 2: 194, 3: 193, 4: 96}, 'datamining': {0: 630, 1: 1142, 2: 51, 3: 264, 4: 183}}
+Topic 0 ['image', 'method', 'model', 'base', 'surface', 'object', 'feature', 'algorithm', 'motion', 'data']
+Topic 1 ['data', 'database', 'system', 'query', 'paper', 'information', 'base', 'application', 'support', 'mining']
+Topic 2 ['compression', 'secure', 'introduction', 'wavelet', 'system', 'editorial', 'visualization', 'security', 'base', 'special']
+Topic 3 ['medical', 'image', 'clinical', 'patient', 'research', 'system', 'neural', 'health', 'care', 'base']
+Topic 4 ['algorithm', 'problem', 'bound', 'time', 'graph', '1', 'show', '2', 'approximation', 'number']
+LDA TFIDF time 247.10777950286865
+LDA TFIDF ARI: 0.403901367389
+TFIDF
+NMF TFIDF with cvalue:
+Destructor TM
+{'database': {0: 615, 1: 169, 2: 99, 3: 1664, 4: 2512}, 'medical': {0: 324, 1: 107, 2: 1108, 3: 1473, 4: 54}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 264, 1: 169, 2: 2928, 3: 649, 4: 64}, 'datamining': {0: 1621, 1: 128, 2: 79, 3: 288, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.0265371799468994
+NMF TFIDF ARI c-value: 0.385621903713
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 111, 1: 187, 2: 351, 3: 1436, 4: 2974}, 'medical': {0: 124, 1: 1243, 2: 417, 3: 1162, 4: 120}, 'theory': {0: 3151, 1: 143, 2: 122, 3: 121, 4: 458}, 'visu': {0: 158, 1: 2188, 2: 1219, 3: 303, 4: 206}, 'datamining': {0: 122, 1: 230, 2: 527, 3: 445, 4: 946}}
+Topic 0 ['problem', 'algorithm', 'graph', 'bound', 'time', 'approximation', 'polynomial', 'log', 'number', 'case']
+Topic 1 ['image', 'method', 'model', 'motion', 'surface', 'object', 'shape', 'reconstruction', 'segmentation', 'recognition']
+Topic 2 ['visualization', 'data', 'interactive', 'method', 'field', 'technique', 'model', 'volume', 'tool', 'paper']
+Topic 3 ['system', 'database', 'research', 'information', 'data', 'technology', 'knowledge', 'application', 'paper', 'management']
+Topic 4 ['query', 'data', 'database', 'performance', 'algorithm', 'paper', 'system', 'efficient', 'result', 'tree']
+LDA TFIDF c-value time 215.98168516159058
+LDA TFIDF ARI c-value: 0.304129374043
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2351, 1: 99, 2: 89, 3: 743, 4: 1777}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3322, 2: 137, 3: 207, 4: 200}, 'visu': {0: 50, 1: 82, 2: 2959, 3: 333, 4: 650}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.9410970211029053
+NMF TFIDF ARI: 0.383983626792
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 187, 1: 3385, 2: 296, 3: 138, 4: 1053}, 'medical': {0: 615, 1: 367, 2: 1709, 3: 64, 4: 311}, 'theory': {0: 202, 1: 158, 2: 97, 3: 3314, 4: 224}, 'visu': {0: 2924, 1: 398, 2: 254, 3: 68, 4: 430}, 'datamining': {0: 148, 1: 296, 2: 168, 3: 82, 4: 1576}}
+Topic 0 ['image', 'method', 'surface', '3d', 'motion', 'model', 'base', 'object', 'point', 'shape']
+Topic 1 ['database', 'system', 'data', 'query', 'application', 'user', 'management', 'object', 'paper', 'information']
+Topic 2 ['medical', 'research', 'clinical', 'system', 'image', 'patient', 'computer', 'base', 'neural', 'health']
+Topic 3 ['problem', 'algorithm', 'bound', 'graph', 'time', '1', '2', 'log', 'approximation', 'show']
+Topic 4 ['data', 'mining', 'algorithm', 'propose', 'method', 'base', 'cluster', 'paper', 'pattern', 'set']
+LDA TFIDF time 249.92906141281128
+LDA TFIDF ARI: 0.422284141732
+TFIDF
+NMF TFIDF with cvalue:
+Destructor TM
+{'database': {0: 614, 1: 169, 2: 99, 3: 1661, 4: 2516}, 'medical': {0: 323, 1: 107, 2: 1108, 3: 1473, 4: 55}, 'theory': {0: 111, 1: 3440, 2: 128, 3: 211, 4: 105}, 'visu': {0: 263, 1: 169, 2: 2929, 3: 649, 4: 64}, 'datamining': {0: 1621, 1: 128, 2: 79, 3: 288, 4: 154}}
+Topic 0 ['data', 'mining', 'method', 'set', 'approach', 'algorithm', 'paper', 'pattern', 'classification', 'large']
+Topic 1 ['problem', 'algorithm', 'time', 'bound', 'graph', 'approximation', 'log', 'number', 'case', 'polynomial']
+Topic 2 ['image', 'surface', 'method', 'object', 'model', 'motion', 'point', 'shape', 'scene', 'camera']
+Topic 3 ['system', 'information', 'application', 'research', 'technology', 'user', 'management', 'paper', 'data', 'visualization']
+Topic 4 ['query', 'database', 'relational', 'performance', 'xml', 'object', 'processing', 'optimization', 'language', 'data']
+NMF TFIDF c-value time 1.0482063293457031
+NMF TFIDF ARI c-value: 0.385897105241
+LDA TFIDF with cvalue:
+Destructor TM
+{'database': {0: 135, 1: 501, 2: 163, 3: 927, 4: 3333}, 'medical': {0: 70, 1: 1362, 2: 986, 3: 503, 4: 145}, 'theory': {0: 3325, 1: 82, 2: 204, 3: 132, 4: 252}, 'visu': {0: 125, 1: 223, 2: 2995, 3: 528, 4: 203}, 'datamining': {0: 151, 1: 187, 2: 188, 3: 1496, 4: 248}}
+Topic 0 ['problem', 'algorithm', 'graph', 'time', 'bound', 'approximation', 'number', 'polynomial', 'log', 'result']
+Topic 1 ['medical', 'research', 'system', 'clinical', 'patient', 'information', 'technology', 'paper', 'computer', 'neural']
+Topic 2 ['image', 'method', 'surface', 'model', 'motion', 'object', 'point', 'shape', 'reconstruction', 'volume']
+Topic 3 ['data', 'mining', 'rule', 'approach', 'pattern', 'paper', 'information', 'model', 'method', 'classification']
+Topic 4 ['query', 'database', 'data', 'system', 'performance', 'paper', 'object', 'application', 'relational', 'access']
+LDA TFIDF c-value time 208.74170398712158
+LDA TFIDF ARI c-value: 0.40860613838
+NMF TFIDF without cvalue:
+Destructor TM
+{'database': {0: 2351, 1: 99, 2: 89, 3: 743, 4: 1777}, 'medical': {0: 34, 1: 78, 2: 1152, 3: 373, 4: 1429}, 'theory': {0: 129, 1: 3322, 2: 137, 3: 207, 4: 200}, 'visu': {0: 50, 1: 82, 2: 2959, 3: 333, 4: 650}, 'datamining': {0: 91, 1: 56, 2: 42, 3: 1831, 4: 250}}
+Topic 0 ['query', 'database', 'relational', 'performance', 'data', 'object', 'xml', 'index', 'processing', 'system']
+Topic 1 ['problem', '1', 'algorithm', 'bound', 'time', '2', 'graph', 'log', 'approximation', 'show']
+Topic 2 ['image', 'surface', 'method', '3d', 'object', 'model', 'motion', 'base', 'point', 'shape']
+Topic 3 ['data', 'propose', 'mining', 'method', 'algorithm', 'approach', 'set', 'paper', 'cluster', 'pattern']
+Topic 4 ['system', 'information', 'application', 'research', 'user', 'data', 'technology', 'visualization', 'design', 'paper']
+NMF TFIDF time 1.870382308959961
+NMF TFIDF ARI: 0.383983626792
+LDA TFIDF without cvalue:
+Destructor TM
+{'database': {0: 3007, 1: 205, 2: 137, 3: 158, 4: 1552}, 'medical': {0: 552, 1: 81, 2: 906, 3: 1062, 4: 465}, 'theory': {0: 127, 1: 3416, 2: 150, 3: 106, 4: 196}, 'visu': {0: 314, 1: 139, 2: 1298, 3: 1934, 4: 389}, 'datamining': {0: 228, 1: 96, 2: 114, 3: 151, 4: 1681}}
+Topic 0 ['system', 'database', 'data', 'query', 'management', 'application', 'information', 'support', 'technology', 'object']
+Topic 1 ['problem', 'algorithm', 'bound', 'graph', 'time', '1', '2', 'approximation', 'log', 'show']
+Topic 2 ['visualization', 'image', 'volume', 'surface', 'interactive', 'render', 'method', 'data', 'base', 'technique']
+Topic 3 ['image', 'model', 'motion', 'object', 'base', 'recognition', 'method', 'shape', 'camera', 'estimation']
+Topic 4 ['data', 'propose', 'mining', 'paper', 'algorithm', 'base', 'result', 'set', 'show', 'method']
+LDA TFIDF time 260.6828715801239
+LDA TFIDF ARI: 0.343958040173
+
+
+=========================================================
+==========================Okapi==========================
+=========================================================
+
+
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 641, 1: 1046, 2: 93, 3: 636, 4: 2643}, 'medical': {0: 117, 1: 253, 2: 1210, 3: 1287, 4: 199}, 'theory': {0: 3618, 1: 121, 2: 75, 3: 102, 4: 79}, 'visu': {0: 434, 1: 754, 2: 2529, 3: 211, 4: 146}, 'datamining': {0: 398, 1: 1466, 2: 124, 3: 113, 4: 169}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.9693953990936279
+NMF Okapi ARI c-value: 0.33859500913
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 170, 1: 3357, 2: 1170, 3: 132, 4: 230}, 'medical': {0: 567, 1: 322, 2: 225, 3: 158, 4: 1794}, 'theory': {0: 162, 1: 196, 2: 377, 3: 3196, 4: 64}, 'visu': {0: 2784, 1: 374, 2: 475, 3: 164, 4: 277}, 'datamining': {0: 151, 1: 499, 2: 1331, 3: 131, 4: 158}}
+Topic 0 ['image', 'model', 'motion', 'surface', 'object', 'method', 'reconstruction', 'shape', 'recognition', 'visualization']
+Topic 1 ['database', 'system', 'data', 'query', 'management', 'web', 'information', 'application', 'object', 'language']
+Topic 2 ['data', 'algorithm', 'mining', 'tree', 'pattern', 'rule', 'method', 'set', 'paper', 'result']
+Topic 3 ['algorithm', 'problem', 'graph', 'time', 'bound', 'abstract', 'approximation', 'polynomial', 'complexity', 'log']
+Topic 4 ['medical', 'system', 'research', 'clinical', 'image', 'patient', 'neural', 'health', 'information', 'paper']
+LDA Okapi c-value time 199.3061351776123
+LDA Okapi ARI c-value: 0.390302003572
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3556, 1: 677, 2: 89, 3: 61, 4: 676}, 'medical': {0: 213, 1: 161, 2: 1275, 3: 15, 4: 1402}, 'theory': {0: 90, 1: 3442, 2: 63, 3: 291, 4: 109}, 'visu': {0: 578, 1: 728, 2: 2539, 3: 15, 4: 214}, 'datamining': {0: 1276, 1: 721, 2: 132, 3: 25, 4: 116}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.082261323928833
+NMF Okapi ARI: 0.320249844816
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 383, 1: 1973, 2: 2357, 3: 150, 4: 196}, 'medical': {0: 1210, 1: 261, 2: 331, 3: 1201, 4: 63}, 'theory': {0: 61, 1: 279, 2: 237, 3: 125, 4: 3293}, 'visu': {0: 279, 1: 208, 2: 1848, 3: 1550, 4: 189}, 'datamining': {0: 243, 1: 206, 2: 1581, 3: 122, 4: 118}}
+Topic 0 ['medical', 'research', 'knowledge', 'system', 'base', 'clinical', 'discovery', 'network', 'information', 'patient']
+Topic 1 ['database', 'system', 'data', 'management', 'query', 'web', 'application', 'object', 'information', 'architecture']
+Topic 2 ['data', 'paper', 'present', 'propose', 'result', 'method', 'base', 'set', 'approach', 'technique']
+Topic 3 ['image', '3d', 'motion', 'reconstruction', 'surface', 'segmentation', 'model', 'shape', 'base', 'visualization']
+Topic 4 ['algorithm', 'problem', 'graph', 'bound', 'time', 'approximation', '1', 'extend', 'abstract', '2']
+LDA Okapi time 229.9119312763214
+LDA Okapi ARI: 0.265078937539
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 623, 1: 1036, 2: 91, 3: 625, 4: 2684}, 'medical': {0: 116, 1: 253, 2: 1211, 3: 1287, 4: 199}, 'theory': {0: 3615, 1: 121, 2: 75, 3: 102, 4: 82}, 'visu': {0: 430, 1: 756, 2: 2529, 3: 209, 4: 150}, 'datamining': {0: 397, 1: 1467, 2: 123, 3: 112, 4: 171}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.9660570621490479
+NMF Okapi ARI c-value: 0.341584751393
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 82, 1: 3554, 2: 498, 3: 652, 4: 273}, 'medical': {0: 1019, 1: 213, 2: 1269, 3: 454, 4: 111}, 'theory': {0: 147, 1: 175, 2: 77, 3: 216, 4: 3380}, 'visu': {0: 1668, 1: 285, 2: 216, 3: 1747, 4: 158}, 'datamining': {0: 90, 1: 376, 2: 480, 3: 1237, 4: 87}}
+Topic 0 ['image', 'motion', 'reconstruction', 'segmentation', 'model', 'surface', 'shape', 'estimation', 'object', 'detection']
+Topic 1 ['database', 'data', 'query', 'system', 'object', 'management', 'performance', 'relational', 'xml', 'application']
+Topic 2 ['research', 'medical', 'knowledge', 'system', 'information', 'discovery', 'rule', 'clinical', 'paper', 'network']
+Topic 3 ['data', 'method', 'algorithm', 'technique', 'paper', 'feature', 'visualization', 'set', 'high', 'approach']
+Topic 4 ['algorithm', 'problem', 'graph', 'abstract', 'time', 'bound', 'approximation', 'polynomial', 'complexity', 'number']
+LDA Okapi c-value time 202.40697813034058
+LDA Okapi ARI c-value: 0.361332132392
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3555, 1: 677, 2: 89, 3: 61, 4: 677}, 'medical': {0: 213, 1: 161, 2: 1274, 3: 15, 4: 1403}, 'theory': {0: 89, 1: 3441, 2: 63, 3: 291, 4: 111}, 'visu': {0: 577, 1: 729, 2: 2538, 3: 15, 4: 215}, 'datamining': {0: 1274, 1: 722, 2: 132, 3: 25, 4: 117}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.091217517852783
+NMF Okapi ARI: 0.320084829174
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 3744, 1: 320, 2: 159, 3: 189, 4: 647}, 'medical': {0: 217, 1: 794, 2: 113, 3: 478, 4: 1464}, 'theory': {0: 351, 1: 239, 2: 3155, 3: 195, 4: 55}, 'visu': {0: 455, 1: 242, 2: 141, 3: 2988, 4: 248}, 'datamining': {0: 1105, 1: 117, 2: 136, 3: 423, 4: 489}}
+Topic 0 ['data', 'database', 'query', 'system', 'paper', 'performance', 'base', 'propose', 'present', 'user']
+Topic 1 ['abstract', 'image', 'extend', 'reconstruction', 'registration', 'brain', 'imaging', 'ct', 'tomography', 'segmentation']
+Topic 2 ['algorithm', 'problem', 'graph', 'bound', 'time', 'approximation', '1', 'polynomial', '2', 'show']
+Topic 3 ['image', 'model', 'method', 'surface', 'base', 'motion', '3d', 'shape', 'visualization', 'object']
+Topic 4 ['research', 'medical', 'system', 'knowledge', 'data', 'information', 'technology', 'rule', 'mining', 'discovery']
+LDA Okapi time 243.77644515037537
+LDA Okapi ARI: 0.378097672718
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 625, 1: 1037, 2: 91, 3: 626, 4: 2680}, 'medical': {0: 116, 1: 253, 2: 1211, 3: 1287, 4: 199}, 'theory': {0: 3615, 1: 121, 2: 75, 3: 102, 4: 82}, 'visu': {0: 430, 1: 756, 2: 2529, 3: 209, 4: 150}, 'datamining': {0: 397, 1: 1467, 2: 123, 3: 112, 4: 171}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.978020191192627
+NMF Okapi ARI c-value: 0.341276276943
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 280, 1: 221, 2: 2681, 3: 98, 4: 1779}, 'medical': {0: 1340, 1: 146, 2: 429, 3: 894, 4: 257}, 'theory': {0: 85, 1: 2950, 2: 92, 3: 226, 4: 642}, 'visu': {0: 205, 1: 177, 2: 525, 3: 2339, 4: 828}, 'datamining': {0: 259, 1: 108, 2: 444, 3: 116, 4: 1343}}
+Topic 0 ['medical', 'research', 'knowledge', 'system', 'clinical', 'network', 'patient', 'discovery', 'neural', 'health']
+Topic 1 ['problem', 'algorithm', 'graph', 'abstract', 'bound', 'time', 'approximation', 'polynomial', 'log', 'complexity']
+Topic 2 ['database', 'system', 'data', 'management', 'information', 'query', 'web', 'application', 'visualization', 'object']
+Topic 3 ['image', 'motion', 'reconstruction', 'surface', 'model', 'segmentation', 'shape', 'recognition', 'method', 'object']
+Topic 4 ['data', 'algorithm', 'paper', 'performance', 'tree', 'result', 'method', 'pattern', 'set', 'rule']
+LDA Okapi c-value time 193.85174894332886
+LDA Okapi ARI c-value: 0.276314879596
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3555, 1: 677, 2: 89, 3: 61, 4: 677}, 'medical': {0: 213, 1: 161, 2: 1275, 3: 15, 4: 1402}, 'theory': {0: 89, 1: 3441, 2: 63, 3: 291, 4: 111}, 'visu': {0: 577, 1: 729, 2: 2538, 3: 15, 4: 215}, 'datamining': {0: 1275, 1: 722, 2: 132, 3: 25, 4: 116}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.096359968185425
+NMF Okapi ARI: 0.320071163575
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 1405, 1: 135, 2: 2209, 3: 788, 4: 522}, 'medical': {0: 75, 1: 1182, 2: 1035, 3: 600, 4: 174}, 'theory': {0: 3228, 1: 183, 2: 61, 3: 94, 4: 429}, 'visu': {0: 487, 1: 2156, 2: 317, 3: 975, 4: 139}, 'datamining': {0: 322, 1: 161, 2: 248, 3: 1439, 4: 100}}
+Topic 0 ['algorithm', 'problem', 'time', 'show', 'graph', 'result', 'bound', 'number', '1', 'approximation']
+Topic 1 ['image', '3d', 'model', 'motion', 'reconstruction', 'surface', 'base', 'segmentation', 'shape', 'recognition']
+Topic 2 ['database', 'system', 'data', 'information', 'research', 'query', 'web', 'management', 'object', 'application']
+Topic 3 ['data', 'mining', 'rule', 'cluster', 'visualization', 'approach', 'paper', 'classification', 'discovery', 'pattern']
+Topic 4 ['abstract', 'extend', 'parallel', 'system', 'protocol', 'network', 'data', 'control', 'mobile', 'memory']
+LDA Okapi time 241.9488079547882
+LDA Okapi ARI: 0.223705530077
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 624, 1: 1039, 2: 91, 3: 626, 4: 2679}, 'medical': {0: 116, 1: 253, 2: 1212, 3: 1286, 4: 199}, 'theory': {0: 3615, 1: 121, 2: 75, 3: 102, 4: 82}, 'visu': {0: 430, 1: 758, 2: 2527, 3: 209, 4: 150}, 'datamining': {0: 397, 1: 1467, 2: 123, 3: 112, 4: 171}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.9663472175598145
+NMF Okapi ARI c-value: 0.341109780072
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 3409, 1: 558, 2: 250, 3: 629, 4: 213}, 'medical': {0: 439, 1: 981, 2: 147, 3: 154, 4: 1345}, 'theory': {0: 131, 1: 104, 2: 2591, 3: 1056, 4: 113}, 'visu': {0: 926, 1: 143, 2: 739, 3: 270, 4: 1996}, 'datamining': {0: 1451, 1: 171, 2: 262, 3: 165, 4: 221}}
+Topic 0 ['data', 'database', 'query', 'system', 'mining', 'paper', 'approach', 'information', 'application', 'rule']
+Topic 1 ['research', 'medical', 'system', 'technology', 'clinical', 'paper', 'information', 'patient', 'health', 'care']
+Topic 2 ['algorithm', 'problem', 'graph', 'time', 'approximation', 'tree', 'bound', 'number', 'result', 'point']
+Topic 3 ['abstract', 'system', 'time', 'algorithm', 'transaction', 'protocol', 'database', 'complexity', 'communication', 'parallel']
+Topic 4 ['image', 'model', 'motion', 'reconstruction', 'segmentation', 'detection', 'surface', 'shape', 'recognition', 'estimation']
+LDA Okapi c-value time 198.619393825531
+LDA Okapi ARI c-value: 0.234194378023
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3555, 1: 677, 2: 89, 3: 61, 4: 677}, 'medical': {0: 213, 1: 161, 2: 1275, 3: 15, 4: 1402}, 'theory': {0: 89, 1: 3441, 2: 63, 3: 291, 4: 111}, 'visu': {0: 577, 1: 729, 2: 2538, 3: 15, 4: 215}, 'datamining': {0: 1275, 1: 721, 2: 132, 3: 25, 4: 117}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.100433826446533
+NMF Okapi ARI: 0.320083253222
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 387, 1: 196, 2: 1694, 3: 2536, 4: 246}, 'medical': {0: 955, 1: 1363, 2: 170, 3: 499, 4: 79}, 'theory': {0: 93, 1: 115, 2: 271, 3: 125, 4: 3391}, 'visu': {0: 194, 1: 2280, 2: 205, 3: 1167, 4: 228}, 'datamining': {0: 201, 1: 215, 2: 130, 3: 1567, 4: 157}}
+Topic 0 ['research', 'medical', 'knowledge', 'system', 'clinical', 'technology', 'patient', 'health', 'discovery', 'information']
+Topic 1 ['image', 'model', 'base', '3d', 'motion', 'reconstruction', 'surface', 'method', 'segmentation', 'shape']
+Topic 2 ['database', 'system', 'query', 'data', 'performance', 'processing', 'memory', 'parallel', 'index', 'management']
+Topic 3 ['data', 'paper', 'database', 'mining', 'propose', 'base', 'information', 'present', 'approach', 'set']
+Topic 4 ['algorithm', 'problem', 'graph', 'bound', 'time', 'abstract', 'extend', 'approximation', '1', '2']
+LDA Okapi time 237.16244649887085
+LDA Okapi ARI: 0.284962034173
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 622, 1: 1038, 2: 91, 3: 626, 4: 2682}, 'medical': {0: 116, 1: 253, 2: 1211, 3: 1287, 4: 199}, 'theory': {0: 3615, 1: 121, 2: 75, 3: 102, 4: 82}, 'visu': {0: 430, 1: 759, 2: 2526, 3: 209, 4: 150}, 'datamining': {0: 397, 1: 1468, 2: 122, 3: 112, 4: 171}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.9631633758544922
+NMF Okapi ARI c-value: 0.341371202854
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 3640, 1: 585, 2: 192, 3: 183, 4: 459}, 'medical': {0: 296, 1: 560, 2: 92, 3: 1178, 4: 940}, 'theory': {0: 211, 1: 284, 2: 3235, 3: 159, 4: 106}, 'visu': {0: 463, 1: 266, 2: 150, 3: 3018, 4: 177}, 'datamining': {0: 440, 1: 1391, 2: 145, 3: 165, 4: 129}}
+Topic 0 ['database', 'data', 'query', 'system', 'object', 'information', 'application', 'management', 'paper', 'user']
+Topic 1 ['mining', 'data', 'rule', 'network', 'classification', 'pattern', 'algorithm', 'discovery', 'association', 'model']
+Topic 2 ['algorithm', 'problem', 'graph', 'abstract', 'time', 'bound', 'approximation', 'complexity', 'polynomial', 'number']
+Topic 3 ['image', 'model', 'method', 'motion', 'reconstruction', 'surface', 'segmentation', 'visualization', 'object', 'shape']
+Topic 4 ['medical', 'research', 'system', 'clinical', 'technology', 'computer', 'information', 'patient', 'paper', 'health']
+LDA Okapi c-value time 198.47260856628418
+LDA Okapi ARI c-value: 0.394584394359
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3556, 1: 677, 2: 89, 3: 61, 4: 676}, 'medical': {0: 214, 1: 161, 2: 1275, 3: 15, 4: 1401}, 'theory': {0: 90, 1: 3443, 2: 63, 3: 291, 4: 108}, 'visu': {0: 578, 1: 729, 2: 2538, 3: 15, 4: 214}, 'datamining': {0: 1276, 1: 721, 2: 132, 3: 25, 4: 116}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.136554002761841
+NMF Okapi ARI: 0.320181299494
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 1421, 1: 2013, 2: 1319, 3: 152, 4: 154}, 'medical': {0: 1136, 1: 278, 2: 412, 3: 79, 4: 1161}, 'theory': {0: 54, 1: 459, 2: 191, 3: 3215, 4: 76}, 'visu': {0: 228, 1: 283, 2: 2697, 3: 293, 4: 573}, 'datamining': {0: 468, 1: 205, 2: 1326, 3: 106, 4: 165}}
+Topic 0 ['database', 'system', 'data', 'research', 'knowledge', 'information', 'rule', 'mining', 'medical', 'web']
+Topic 1 ['system', 'database', 'query', 'data', 'performance', 'access', 'server', 'memory', 'paper', 'environment']
+Topic 2 ['data', 'method', 'base', 'propose', 'algorithm', 'present', 'paper', 'technique', 'approach', 'result']
+Topic 3 ['algorithm', 'problem', 'graph', 'bound', 'time', 'extend', 'approximation', 'abstract', '1', 'polynomial']
+Topic 4 ['image', 'segmentation', 'detection', 'model', 'reconstruction', 'base', 'analysis', '3d', 'neural', 'network']
+LDA Okapi time 249.3004150390625
+LDA Okapi ARI: 0.25764082641
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 635, 1: 1039, 2: 92, 3: 625, 4: 2668}, 'medical': {0: 117, 1: 252, 2: 1214, 3: 1284, 4: 199}, 'theory': {0: 3615, 1: 121, 2: 75, 3: 102, 4: 82}, 'visu': {0: 433, 1: 752, 2: 2533, 3: 207, 4: 149}, 'datamining': {0: 401, 1: 1465, 2: 124, 3: 110, 4: 170}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.9752507209777832
+NMF Okapi ARI c-value: 0.340121048484
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 253, 1: 242, 2: 4054, 3: 304, 4: 206}, 'medical': {0: 775, 1: 1055, 2: 509, 3: 650, 4: 77}, 'theory': {0: 102, 1: 95, 2: 212, 3: 132, 4: 3454}, 'visu': {0: 381, 1: 2353, 2: 453, 3: 612, 4: 275}, 'datamining': {0: 447, 1: 227, 2: 1285, 3: 135, 4: 176}}
+Topic 0 ['classification', 'detection', 'network', 'model', 'learning', 'neural', 'decision', 'data', 'medical', 'fuzzy']
+Topic 1 ['image', 'motion', 'model', 'method', 'object', 'surface', 'paper', 'shape', 'estimation', 'point']
+Topic 2 ['database', 'data', 'system', 'query', 'paper', 'information', 'application', 'mining', 'performance', 'rule']
+Topic 3 ['visualization', 'interactive', 'volume', 'virtual', 'editor', 'computer', 'imaging', 'report', 'tomography', 'data']
+Topic 4 ['algorithm', 'problem', 'graph', 'time', 'abstract', 'bound', 'approximation', 'number', 'complexity', 'polynomial']
+LDA Okapi c-value time 199.59288620948792
+LDA Okapi ARI c-value: 0.36090943423
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3555, 1: 677, 2: 89, 3: 61, 4: 677}, 'medical': {0: 213, 1: 161, 2: 1275, 3: 15, 4: 1402}, 'theory': {0: 89, 1: 3441, 2: 63, 3: 291, 4: 111}, 'visu': {0: 577, 1: 729, 2: 2538, 3: 15, 4: 215}, 'datamining': {0: 1275, 1: 721, 2: 132, 3: 25, 4: 117}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.1238460540771484
+NMF Okapi ARI: 0.320083253222
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 3711, 1: 244, 2: 406, 3: 180, 4: 518}, 'medical': {0: 259, 1: 995, 2: 232, 3: 87, 4: 1493}, 'theory': {0: 462, 1: 114, 2: 127, 3: 3250, 4: 42}, 'visu': {0: 1083, 1: 2144, 2: 238, 3: 226, 4: 383}, 'datamining': {0: 1464, 1: 405, 2: 122, 3: 94, 4: 185}}
+Topic 0 ['data', 'database', 'query', 'paper', 'system', 'present', 'propose', 'result', 'performance', 'base']
+Topic 1 ['image', 'model', '3d', 'base', 'motion', 'surface', 'method', 'segmentation', 'reconstruction', 'data']
+Topic 2 ['editor', 'panel', 'visualization', 'proceeding', 'note', 'science', 'conference', 'acm', 'symposium', 'international']
+Topic 3 ['algorithm', 'problem', 'graph', 'abstract', 'bound', 'time', 'extend', 'approximation', '1', '2']
+Topic 4 ['system', 'medical', 'research', 'information', 'technology', 'knowledge', 'base', 'clinical', 'application', 'paper']
+LDA Okapi time 232.17707300186157
+LDA Okapi ARI: 0.299223727866
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 624, 1: 1040, 2: 91, 3: 626, 4: 2678}, 'medical': {0: 116, 1: 253, 2: 1211, 3: 1287, 4: 199}, 'theory': {0: 3615, 1: 121, 2: 75, 3: 102, 4: 82}, 'visu': {0: 430, 1: 758, 2: 2527, 3: 209, 4: 150}, 'datamining': {0: 397, 1: 1467, 2: 123, 3: 112, 4: 171}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.9644906520843506
+NMF Okapi ARI c-value: 0.341069558648
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 3200, 1: 351, 2: 613, 3: 198, 4: 697}, 'medical': {0: 478, 1: 726, 2: 75, 3: 1015, 4: 772}, 'theory': {0: 121, 1: 153, 2: 3502, 3: 155, 4: 64}, 'visu': {0: 528, 1: 235, 2: 183, 3: 2938, 4: 190}, 'datamining': {0: 614, 1: 1044, 2: 271, 3: 218, 4: 123}}
+Topic 0 ['database', 'data', 'system', 'query', 'paper', 'object', 'user', 'application', 'information', 'processing']
+Topic 1 ['mining', 'data', 'classification', 'rule', 'discovery', 'knowledge', 'network', 'association', 'pattern', 'decision']
+Topic 2 ['algorithm', 'problem', 'time', 'graph', 'abstract', 'bound', 'approximation', 'tree', 'number', 'complexity']
+Topic 3 ['image', 'method', 'motion', 'model', 'reconstruction', 'surface', 'segmentation', 'estimation', 'shape', 'object']
+Topic 4 ['research', 'system', 'medical', 'technology', 'information', 'clinical', 'patient', 'health', 'database', 'care']
+LDA Okapi c-value time 195.48466038703918
+LDA Okapi ARI c-value: 0.350129215335
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3556, 1: 677, 2: 89, 3: 61, 4: 676}, 'medical': {0: 213, 1: 161, 2: 1275, 3: 15, 4: 1402}, 'theory': {0: 90, 1: 3441, 2: 63, 3: 291, 4: 110}, 'visu': {0: 578, 1: 729, 2: 2538, 3: 15, 4: 214}, 'datamining': {0: 1276, 1: 721, 2: 132, 3: 25, 4: 116}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.1381616592407227
+NMF Okapi ARI: 0.320099010998
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 261, 1: 113, 2: 2437, 3: 2074, 4: 174}, 'medical': {0: 180, 1: 1459, 2: 269, 3: 1096, 4: 62}, 'theory': {0: 157, 1: 93, 2: 257, 3: 62, 4: 3426}, 'visu': {0: 181, 1: 1923, 2: 1579, 3: 255, 4: 136}, 'datamining': {0: 109, 1: 175, 2: 1464, 3: 403, 4: 119}}
+Topic 0 ['editor', 'proceeding', 'note', 'conference', 'acm', 'symposium', 'international', 'editorial', 'usa', 'introduction']
+Topic 1 ['image', 'model', '3d', 'base', 'motion', 'reconstruction', 'surface', 'segmentation', 'detection', 'shape']
+Topic 2 ['data', 'present', 'paper', 'propose', 'result', 'technique', 'query', 'set', 'method', 'show']
+Topic 3 ['database', 'system', 'data', 'research', 'information', 'management', 'application', 'technology', 'knowledge', 'medical']
+Topic 4 ['algorithm', 'problem', 'graph', 'bound', 'time', 'abstract', 'extend', 'approximation', '1', 'polynomial']
+LDA Okapi time 231.24500465393066
+LDA Okapi ARI: 0.283202891067
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 628, 1: 1041, 2: 91, 3: 627, 4: 2672}, 'medical': {0: 117, 1: 253, 2: 1210, 3: 1287, 4: 199}, 'theory': {0: 3615, 1: 121, 2: 75, 3: 102, 4: 82}, 'visu': {0: 431, 1: 759, 2: 2526, 3: 209, 4: 149}, 'datamining': {0: 397, 1: 1468, 2: 122, 3: 112, 4: 171}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.9432334899902344
+NMF Okapi ARI c-value: 0.340508681506
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 928, 1: 2869, 2: 104, 3: 852, 4: 306}, 'medical': {0: 429, 1: 206, 2: 1257, 3: 1103, 4: 71}, 'theory': {0: 221, 1: 146, 2: 101, 3: 115, 4: 3412}, 'visu': {0: 1485, 1: 149, 2: 1983, 3: 285, 4: 172}, 'datamining': {0: 1252, 1: 471, 2: 123, 3: 288, 4: 136}}
+Topic 0 ['data', 'method', 'technique', 'visualization', 'paper', 'set', 'approach', 'classification', 'result', 'algorithm']
+Topic 1 ['database', 'query', 'data', 'system', 'rule', 'object', 'relational', 'language', 'xml', 'processing']
+Topic 2 ['image', 'motion', 'reconstruction', 'model', 'segmentation', 'surface', 'shape', 'detection', 'estimation', 'recognition']
+Topic 3 ['research', 'system', 'medical', 'technology', 'information', 'knowledge', 'web', 'paper', 'clinical', 'database']
+Topic 4 ['algorithm', 'problem', 'graph', 'time', 'bound', 'abstract', 'approximation', 'polynomial', 'complexity', 'number']
+LDA Okapi c-value time 200.70193219184875
+LDA Okapi ARI c-value: 0.318392928874
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3552, 1: 677, 2: 89, 3: 61, 4: 680}, 'medical': {0: 212, 1: 161, 2: 1274, 3: 15, 4: 1404}, 'theory': {0: 89, 1: 3441, 2: 63, 3: 291, 4: 111}, 'visu': {0: 577, 1: 730, 2: 2537, 3: 15, 4: 215}, 'datamining': {0: 1274, 1: 722, 2: 132, 3: 25, 4: 117}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.171785354614258
+NMF Okapi ARI: 0.319895118466
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 137, 1: 747, 2: 148, 3: 651, 4: 3376}, 'medical': {0: 1210, 1: 361, 2: 74, 3: 1118, 4: 303}, 'theory': {0: 98, 1: 201, 2: 3389, 3: 101, 4: 206}, 'visu': {0: 2762, 1: 280, 2: 156, 3: 203, 4: 673}, 'datamining': {0: 90, 1: 1346, 2: 95, 3: 166, 4: 573}}
+Topic 0 ['image', '3d', 'model', 'motion', 'reconstruction', 'surface', 'base', 'segmentation', 'method', 'shape']
+Topic 1 ['data', 'mining', 'rule', 'algorithm', 'classification', 'cluster', 'learn', 'pattern', 'tree', 'base']
+Topic 2 ['problem', 'algorithm', 'graph', 'bound', 'time', 'abstract', 'extend', 'approximation', '1', 'polynomial']
+Topic 3 ['research', 'system', 'medical', 'technology', 'clinical', 'information', 'database', 'paper', 'patient', 'computer']
+Topic 4 ['database', 'data', 'system', 'query', 'paper', 'user', 'object', 'present', 'information', 'base']
+LDA Okapi time 244.92650961875916
+LDA Okapi ARI: 0.378416506254
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 618, 1: 1041, 2: 92, 3: 625, 4: 2683}, 'medical': {0: 115, 1: 253, 2: 1212, 3: 1287, 4: 199}, 'theory': {0: 3614, 1: 122, 2: 75, 3: 102, 4: 82}, 'visu': {0: 427, 1: 762, 2: 2525, 3: 209, 4: 151}, 'datamining': {0: 395, 1: 1469, 2: 122, 3: 113, 4: 171}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.9394431114196777
+NMF Okapi ARI c-value: 0.341551335371
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 2414, 1: 181, 2: 236, 3: 1913, 4: 315}, 'medical': {0: 90, 1: 1015, 2: 245, 3: 1137, 4: 579}, 'theory': {0: 1374, 1: 224, 2: 2166, 3: 69, 4: 162}, 'visu': {0: 213, 1: 3003, 2: 165, 3: 461, 4: 232}, 'datamining': {0: 388, 1: 274, 2: 266, 3: 480, 4: 862}}
+Topic 0 ['query', 'data', 'database', 'performance', 'system', 'result', 'algorithm', 'technique', 'time', 'efficient']
+Topic 1 ['image', 'model', 'method', 'motion', 'reconstruction', 'surface', 'segmentation', 'shape', 'object', 'estimation']
+Topic 2 ['algorithm', 'problem', 'graph', 'time', 'approximation', 'abstract', 'bound', 'polynomial', 'tree', 'minimum']
+Topic 3 ['system', 'database', 'research', 'information', 'data', 'paper', 'web', 'technology', 'application', 'management']
+Topic 4 ['mining', 'rule', 'data', 'knowledge', 'classification', 'discovery', 'pattern', 'association', 'decision', 'network']
+LDA Okapi c-value time 208.1601321697235
+LDA Okapi ARI c-value: 0.247820163886
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3555, 1: 677, 2: 89, 3: 61, 4: 677}, 'medical': {0: 213, 1: 161, 2: 1275, 3: 15, 4: 1402}, 'theory': {0: 89, 1: 3441, 2: 63, 3: 291, 4: 111}, 'visu': {0: 577, 1: 729, 2: 2538, 3: 15, 4: 215}, 'datamining': {0: 1275, 1: 721, 2: 132, 3: 25, 4: 117}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.1090874671936035
+NMF Okapi ARI: 0.320083253222
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 925, 1: 156, 2: 159, 3: 3536, 4: 283}, 'medical': {0: 550, 1: 69, 2: 782, 3: 248, 4: 1417}, 'theory': {0: 55, 1: 3360, 2: 179, 3: 345, 4: 56}, 'visu': {0: 264, 1: 153, 2: 2844, 3: 538, 4: 275}, 'datamining': {0: 417, 1: 153, 2: 237, 3: 1142, 4: 321}}
+Topic 0 ['database', 'system', 'data', 'mining', 'rule', 'information', 'web', 'visualization', 'association', 'management']
+Topic 1 ['algorithm', 'problem', 'graph', 'bound', 'time', 'abstract', 'extend', 'approximation', '1', 'polynomial']
+Topic 2 ['image', '3d', 'model', 'method', 'motion', 'surface', 'reconstruction', 'base', 'shape', 'estimation']
+Topic 3 ['data', 'query', 'database', 'paper', 'system', 'performance', 'propose', 'present', 'base', 'result']
+Topic 4 ['medical', 'research', 'system', 'clinical', 'base', 'paper', 'neural', 'model', 'decision', 'health']
+LDA Okapi time 244.81692957878113
+LDA Okapi ARI: 0.371680989961
+NMF Okapi with cvalue:
+Destructor TM
+{'database': {0: 624, 1: 1039, 2: 91, 3: 627, 4: 2678}, 'medical': {0: 116, 1: 253, 2: 1211, 3: 1287, 4: 199}, 'theory': {0: 3615, 1: 121, 2: 75, 3: 102, 4: 82}, 'visu': {0: 430, 1: 759, 2: 2526, 3: 209, 4: 150}, 'datamining': {0: 396, 1: 1468, 2: 122, 3: 113, 4: 171}}
+Topic 0 ['algorithm', 'problem', 'time', 'graph', 'approximation', 'result', 'number', 'bound', 'tree', 'polynomial']
+Topic 1 ['data', 'mining', 'visualization', 'rule', 'discovery', 'knowledge', 'association', 'pattern', 'approach', 'technique']
+Topic 2 ['image', 'model', 'segmentation', 'motion', 'reconstruction', 'method', 'surface', 'registration', 'object', 'shape']
+Topic 3 ['research', 'information', 'medical', 'technology', 'paper', 'health', 'application', 'care', 'clinical', 'patient']
+Topic 4 ['database', 'system', 'query', 'object', 'management', 'relational', 'language', 'xml', 'processing', 'performance']
+NMF Okapi c-value time 0.9645078182220459
+NMF Okapi ARI c-value: 0.341083920097
+LDA Okapi with cvalue:
+Destructor TM
+{'database': {0: 233, 1: 130, 2: 1753, 3: 506, 4: 2437}, 'medical': {0: 73, 1: 1378, 2: 161, 3: 979, 4: 475}, 'theory': {0: 3286, 1: 89, 2: 346, 3: 128, 4: 146}, 'visu': {0: 371, 1: 2183, 2: 124, 3: 170, 4: 1226}, 'datamining': {0: 173, 1: 194, 2: 177, 3: 457, 4: 1269}}
+Topic 0 ['algorithm', 'problem', 'graph', 'time', 'bound', 'approximation', 'number', 'polynomial', 'complexity', 'result']
+Topic 1 ['image', 'model', 'motion', 'reconstruction', 'surface', 'detection', 'segmentation', 'method', 'shape', 'recognition']
+Topic 2 ['database', 'query', 'system', 'data', 'relational', 'processing', 'memory', 'performance', 'management', 'server']
+Topic 3 ['research', 'medical', 'knowledge', 'mining', 'system', 'rule', 'discovery', 'clinical', 'technology', 'patient']
+Topic 4 ['data', 'paper', 'database', 'information', 'visualization', 'large', 'approach', 'technique', 'system', 'web']
+LDA Okapi c-value time 197.0378179550171
+LDA Okapi ARI c-value: 0.271214236785
+NMF Okapi without cvalue:
+Destructor TM
+{'database': {0: 3556, 1: 677, 2: 89, 3: 61, 4: 676}, 'medical': {0: 213, 1: 161, 2: 1275, 3: 15, 4: 1402}, 'theory': {0: 90, 1: 3442, 2: 63, 3: 291, 4: 109}, 'visu': {0: 578, 1: 729, 2: 2538, 3: 15, 4: 214}, 'datamining': {0: 1276, 1: 721, 2: 132, 3: 25, 4: 116}}
+Topic 0 ['data', 'database', 'system', 'query', 'mining', 'object', 'base', 'approach', 'support', 'management']
+Topic 1 ['algorithm', 'problem', 'time', 'show', 'bound', 'graph', 'result', '1', 'approximation', 'number']
+Topic 2 ['image', '3d', 'model', 'base', 'segmentation', 'reconstruction', 'motion', 'method', 'surface', 'registration']
+Topic 3 ['abstract', 'extend', 'parallel', 'tree', 'algorithm', 'dynamic', 'complexity', 'computation', 'graph', 'exact']
+Topic 4 ['research', 'medical', 'information', 'technology', 'health', 'paper', 'system', 'clinical', 'care', 'patient']
+NMF Okapi time 2.121501922607422
+NMF Okapi ARI: 0.320175146981
+LDA Okapi without cvalue:
+Destructor TM
+{'database': {0: 1142, 1: 153, 2: 3096, 3: 150, 4: 518}, 'medical': {0: 302, 1: 1242, 2: 320, 3: 80, 4: 1122}, 'theory': {0: 101, 1: 113, 2: 313, 3: 3377, 4: 91}, 'visu': {0: 252, 1: 2671, 2: 800, 3: 166, 4: 185}, 'datamining': {0: 215, 1: 200, 2: 1566, 3: 114, 4: 175}}
+Topic 0 ['database', 'system', 'data', 'management', 'application', 'object', 'orient', 'xml', 'information', 'visualization']
+Topic 1 ['image', 'model', '3d', 'base', 'motion', 'reconstruction', 'surface', 'method', 'segmentation', 'visualization']
+Topic 2 ['data', 'query', 'paper', 'propose', 'database', 'present', 'base', 'result', 'performance', 'algorithm']
+Topic 3 ['algorithm', 'problem', 'graph', 'bound', 'time', 'extend', 'approximation', 'abstract', '1', '2']
+Topic 4 ['medical', 'research', 'knowledge', 'system', 'clinical', 'patient', 'review', 'network', 'neural', 'information']
+LDA Okapi time 238.17263102531433
+LDA Okapi ARI: 0.323767223481
