@@ -1,4 +1,8 @@
 # Topic Modeling using Contextual Cues
+## Topic Modeling using Contextual Cues is described in the following paper:
+
+Truică, Ciprian-Octavian and Apostol, Elena Simona and Leordeanu, Cătălin Adrian. *Topic modeling using contextual cues*. In International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC2017). September 2017
+
 ### Folders
 * src - contains the source code for the project
 * dataset - contains the datasets in JSON format, to easily import into a MongoDB
