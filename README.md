@@ -1,5 +1,5 @@
 # Topic Modeling using Contextual Cues
-## Topic Modeling using Contextual Cues is described in the following paper (an update of the paper will be made as soon as it is published on IEEE):
+## Topic Modeling using Contextual Cues is described in the following paper:
 
 Truică, Ciprian-Octavian and Apostol, Elena Simona and Leordeanu, Cătălin Adrian. **Topic modeling using contextual cues**. In *International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC2017)*. . IEEE, ISBN 978-1-5386-2625-2, pp. 203--210, September 2017 DOI: [10.1109/synasc.2017.00041](http://doi.org/10.1109/synasc.2017.00041)
 
